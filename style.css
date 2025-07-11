@@ -1,28 +1,35 @@
-
 body {
-  font-family: Georgia, serif;
-  background-color: #f4f4f2;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #f9f7f1, #e8e4d9);
   color: #2c2c2c;
   margin: 0;
   padding: 0;
 }
+
 header {
-  background-color: #dcdcdc;
-  padding: 2rem;
+  background-color: #ffffffcc;
+  padding: 1.5rem;
   text-align: center;
 }
-.tagline {
-  font-style: italic;
-  color: #6e6e6e;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
+
+nav a {
   margin: 0 1rem;
+  color: #444;
+  text-decoration: none;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 main {
   padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-style: italic;
+  color: #777;
+  margin-top: 0.5rem;
 }
