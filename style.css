@@ -1,29 +1,23 @@
-
 body {
     font-family: 'Georgia', serif;
-    background: linear-gradient(to right, #f0eada, #e6f0f3);
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
     margin: 0;
     padding: 0;
-    color: #333;
 }
-.background {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('liminal-bg.jpg');
-    background-size: cover;
-    opacity: 0.2;
-    z-index: -1;
+header {
+    text-align: center;
+    padding: 2em;
 }
-.content {
-    padding: 3rem;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
 }
 .tagline {
     font-style: italic;
     color: #666;
-}
-nav a {
-    margin: 0 1rem;
-    text-decoration: none;
-    color: #005577;
 }
