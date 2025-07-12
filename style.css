@@ -1,23 +1,36 @@
+
 body {
-    font-family: 'Georgia', serif;
-    background: linear-gradient(to right, #e0eafc, #cfdef3);
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f3f2ee, #e6e3e0);
+  color: #2e2b28;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
 }
 header {
-    text-align: center;
-    padding: 2em;
-}
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin: 0 1em;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .tagline {
-    font-style: italic;
-    color: #666;
+  font-style: italic;
+  color: #6c6761;
+}
+section {
+  margin-bottom: 3rem;
+}
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+a {
+  color: #2e2b28;
+}
+iframe {
+  border: none;
+  margin-top: 1rem;
 }
